@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .explicit {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(53, 54, 54);
+            border: solid 1px gold;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        nav {
+            width: 480px;
+            height: 60px;
+            background-color: rgb(0, 0, 0);
+            border: solid 1px gold;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        header {
+            width: 480px;
+            height: 100px;
+            background-color: rgb(228, 228, 228);
+            border: solid 1px gold;
+            margin-left: 10px;
+        }
+        section {
+            width: 250px;
+            height: 120px;
+            background-color: rgb(250, 0, 0);
+            border: solid 1px gold;
+
+        }
+        article {
+            width: 250px;
+            height: 90px;
+            background-color: rgb(2, 82, 255);
+            border: solid 1px gold;
+
+        }
+        aside {
+            width: 224px;
+            height: 217px;
+            background-color: rgb(217, 255, 0);
+            border: solid 1px rgb(0, 0, 0);
+        }
+        footer {
+            width: 480px;
+            height: 80px;
+            background-color: rgb(20, 230, 230);
+            border: solid 1px gold;
+            margin: 0px 10px;
+
+        }
+        .main-content {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            gap: 5px;
+
+        }
+        .sa {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 10px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "explicit">
+        <nav>
+            <div class = "logo">
+            <img src = "">
+            </div>
+            <div class ="text">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </div>
+        </nav>
+        <header>
+            <p>EXPLICIT ESPORTS!</p>
+        </header>
+        <main>
+            <div class = "main-content">
+        <div class = "sa">
+        <section>SECTION
+            <p>text1</p>
+            <p>text2</p>
+            <p>text3</p>
+        </section>
+        <article>ARTICLE
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+        </article>
+        </div>
+        <aside>
+        <p>ASIDE</p>
+        </aside>
+        </div>
+        </main>
+        <footer>FOOTER</footer>
+    </div>
+</body>
+</html>
