@@ -1,0 +1,139 @@
+.explicit {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(238, 245, 245);
+    border: solid 1px gold;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav {
+    width: 500px;
+    height: 60px;
+    background-color: rgb(53, 53, 66);
+    border: solid 1px rgb(202, 200, 200);
+    align-items: center; 
+    display: flex;
+    gap: 160px;
+}
+.ow
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shop {
+    width: 70px;
+    height: 25px;
+    background-color: rgb(10, 87, 241);
+    border: solid 1px rgb(202, 200, 200);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.logo {
+    width: 50px;
+    height: 60px;
+    margin-left: 5px;
+}
+.text {
+    font-size: 10px;
+    align-items: center;
+    margin-right: 15px;
+    color:aliceblue;
+    text-decoration:none;
+}
+header {
+    width: 500px;
+    height: 100px;
+    background: #000305;
+    background: linear-gradient(5deg, rgba(0, 3, 5, 1) 0%, rgba(255, 215, 0, 1) 77%, rgba(255, 215, 0, 1) 58%, rgba(255, 215, 0, 1) 100%);
+    border: solid 1px gold;
+    text-align: center;
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-decoration: solid;
+}
+section {
+    width: 250px;
+    height: 120px;
+    background-color: rgb(250, 0, 0);
+    border: solid 1px gold;
+    text-align: center;
+    align-content: center;
+    color: yellow;
+    text-decoration: solid;
+    
+}
+.img1,
+.img2,
+.img3 {
+    width: 70px;
+    height: 75px;
+    object-fit: cover;
+    object-position: 30% 70%;
+
+}
+.cont-pi {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 2px 10px;
+    
+}
+.text-pi {
+    display:flex;
+    flex-direction: row;
+    gap: 26px;
+    font-size: 7px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color:yellow;
+    margin-bottom: 3px;
+}
+
+
+article {
+    width: 250px;
+    height: 90px;
+    background-color: rgb(2, 82, 255);
+    border: solid 1px gold;
+
+}
+aside {
+    width: 224px;
+    height: 217px;
+    background-color: rgb(217, 255, 0);
+    border: solid 1px rgb(0, 0, 0);
+}
+footer {
+    width: 480px;
+    height: 80px;
+    background-color: rgb(20, 230, 230);
+    border: solid 1px gold;
+    margin: 0px 10px;
+
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    gap: 5px;
+
+}
+.sa {
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin-left: 10px;
+
+}
